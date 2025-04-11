@@ -238,3 +238,60 @@
   }
 
 /* ----------- for Mobile ----------- */
+@media (max-width: 768px) {
+
+    .nav ul {
+      flex-direction: column;
+      align-items: center;
+      background-color: #0A192F;
+      position: fixed;
+      top: 60px;
+      width: 100%;
+      padding: 1rem;
+      gap: 1rem;
+    }
+  
+    .nav ul li a {
+      font-size: 18px;
+    }
+  
+    .main-heading {
+      font-size: 50px;
+    }
+  
+    .sub-heading {
+      font-size: 16px;
+      margin-top: 3vh;
+    }
+  
+    #about p {
+      padding: 20px;
+      font-size: 18px;
+    }
+  
+    #events {
+      font-size: 22px;
+      padding: 40px;
+    }
+  
+    .card {
+      width: 90%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .gallery-grid img {
+      width: 90%;
+      height: auto;
+    }
+  
+    #gallery {
+      padding: 40px;
+      font-size: 22px;
+    }
+  
+    section {
+      padding: 20px;
+    }
+  
+  }
